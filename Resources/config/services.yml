@@ -1,0 +1,3 @@
+services:
+    mdespeuilles_drupal_password_encoder:
+        class: Mdespeuilles\DrupalPasswordEncoderBundle\Services\DrupalPasswordEncoder
