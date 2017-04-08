@@ -162,7 +162,7 @@ class Crypt {
    * @return string
    *   The base64 encoded result will have a length of up to 4 * $count.
    *
-   * @see \Drupal\Component\Utility\Crypt::randomBytes()
+   * @see Crypt::randomBytes()
    */
   public static function randomBytesBase64($count = 32) {
     return str_replace(['+', '/', '='], ['-', '_', ''], base64_encode(static::randomBytes($count)));
